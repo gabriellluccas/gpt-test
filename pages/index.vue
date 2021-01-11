@@ -15,7 +15,7 @@
       PostBlock
     v-col(row=12, md=4)
       PostBlock
-  GptAd(ad-unit='Travel/Europe/France/Paris', :size='[300, 250]')
+  GptAd(ad-unit='Travel/Europe/France/Paris', :size='[300, 250]') 
   //- GptAd(ad-unit='MM_300x600_Sidebar', :size='[600, 300]')
 </template>
 
