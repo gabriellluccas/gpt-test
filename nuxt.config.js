@@ -49,7 +49,7 @@ export default {
   },
 
   gptAds: {
-    networkCode: '6355419',
+    networkCode: '21862753527',
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
