@@ -15,7 +15,8 @@
       PostBlock
     v-col(row=12, md=4)
       PostBlock
-  GptAd(ad-unit='MM_300x600_Sidebar', :size='size')
+  v-row
+    GptAd(ad-unit='MM_300x600_Sidebar', :size='size')
 </template>
 
 <script>
@@ -25,7 +26,7 @@ export default {
   components: { PostBlock },
   data() {
     return {
-      size: ['160x600', '300x600'],
+      size: `160x600,300x600`,
     }
   },
 }
