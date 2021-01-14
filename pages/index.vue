@@ -16,7 +16,10 @@
     v-col(row=12, md=4)
       PostBlock
   v-row
-    GptAd(ad-unit='MM_300x600_Sidebar', :size='size')
+    v-col(row=12)
+      GptAd(ad-unit='/jc_teste_300x250', :size='size')
+    //- v-col(row=12)
+      //- GptAd(ad-unit='243345435/Travel/Europe/France/Paris', size='300x250')
 </template>
 
 <script>
@@ -26,7 +29,11 @@ export default {
   components: { PostBlock },
   data() {
     return {
-      size: `160x600,300x600`,
+      size: [
+        [300, 250],
+        [728, 90],
+        [750, 200],
+      ],
     }
   },
 }
